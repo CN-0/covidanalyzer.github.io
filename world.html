@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Covid Analyzer</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,700,900" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+			<a class="navbar-brand" href="#"><strong>COVID<span id="inn"> ANALYZER</span></strong></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+		
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+				<a class="nav-link" href="index.html">India</a>
+				</li>
+				<li class="nav-item active">
+				<a class="nav-link" id ="world" href="#">World <span class="sr-only">(current)</span></a>
+				</li>
+				<!--<li class="nav-item">
+				<a class="nav-link" href="#">About Us</a>
+				</li>-->
+			</ul>
+			<!--<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>-->
+			</div>
+		</div>
+	</nav>
+		<div class="hiie container">	
+			<div class="row justify-content-center">
+				<div class="hin col-12 col-md-10">
+				<div class="my-3 row">
+				<div id="danger" class="text-danger col-3 col-sm-3 col-lg-3">
+					<div id="ff"><strong>Confirmed</strong></div>
+					
+				</div> 
+				<div id="primary" class="text-primary col-3 col-sm-3 col-lg-3">
+					<div id="ff"><strong>Active</strong></div>
+					<br>
+					
+				</div>
+				<div id="success" class="text-success col-3 col-sm-3 col-lg-3">
+					<div id="ff"><strong>Recovered</strong></div>
+					<br>
+					
+				</div>
+				<div id="muted" class="text-muted col-3 col-sm-3 col-lg-3">
+					<div id="ff"><strong>Deceased</strong></div>
+					
+				</div>
+				</div>
+				</div>
+			</div>
+		</div>
+    <a href="" onclick="topFunction()" id="myBtn" title="Go to top"><img id="top" src="images/top.png"></a>
+    
+	<div id="content" class="main" style="overflow-x:auto;">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="hie col-12 col-md-10">
+					<h1 class="text-center mb-4">
+							Country Wise Stats
+					</h1>
+					<div class="table-responsive">          
+					  <table id="favorites" class="table table-striped table-responsive">
+					    <thead class="bg-dark">
+					      <tr class="states">
+					        <th scope="col">Country</th>
+							<th scope="col">Total Cases (new)</th>
+							<th scope="col">Active</th>
+							<th scope="col">Recovered</th>
+							<th scope="col">Critical</th>
+							<th scope="col">Deaths (new)</th>
+							<th scope="col">Total Tests</th>
+							<th scope="col">Cases per 1 Million</th>
+							<th scope="col">Deaths per 1 Million</th>
+							<th scope="col">Tests per 1 Million</th>
+					      </tr>
+					    </thead>
+					    <tbody id=countryStats>
+					      
+					    </tbody>
+					  </table>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+        
+    
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Our Scripts-->
+<script src="js/CovidAPI.js"></script>
+<script src="js/UI.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

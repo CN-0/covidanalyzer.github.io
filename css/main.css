@@ -1,0 +1,186 @@
+img{
+    max-width: 10px;
+    max-height: 20px;
+    padding-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+thead {
+    color: white;
+}
+
+.row{
+
+    margin-top: 0px!important;
+
+}
+
+.hi{
+    margin-top: 0px!important;
+    padding-top: 0px!important;
+
+}
+.hii{
+    height: 200px!important;
+    margin-bottom: : 0px!important;
+    padding-top: 10px!important;
+
+}
+.hie{
+    margin-top: 0px!important;
+    padding-top: 0px!important;
+
+}
+.hiie{
+    height: 170px!important;
+    margin-bottom: : -20px!important;
+    padding-bottom: 0px!important;
+    padding-top: 10px!important;
+
+}
+
+
+#inn{
+    color:aqua;
+}
+strong{
+    font-size: 20px;
+}
+.nav-link{
+    font-size: 15px!important;
+}
+
+#name{
+    padding-left: 50px!important;
+}
+
+.states{
+    font-size: 17px!important;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    top: 100px;
+    right: 226px!important;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+
+
+#top{
+    min-width: 40px!important;
+    min-height: 30px!important;
+}
+
+#cap{
+    text-transform:capitalize;
+    font-size: 12px;
+}
+.hin{
+    margin-top: 0px!important;
+    padding-top: 30px!important;
+    padding-bottom: 40px!important;
+    margin-bottom: 20px!important;
+}
+.statee{
+    padding-left: 10px!important;
+    padding-right: 0px!important;
+}
+.state{
+    padding-left: 20px!important;
+    padding-right: 0px!important;
+}
+.sta{
+    padding-right: 20px!important;
+    padding-left: 20px!important;
+}
+
+.col-3{
+    padding-left: 20px!important;
+    text-align: center;
+}
+
+#ff{
+    font-size: 40px!important;
+}
+
+.statees{
+    padding-right: 15px!important;
+}
+.st{
+    padding-right: 0px!important;
+}
+p{
+    text-align: center!important;
+    color: darkgray;
+    padding-top: -30px!important;
+    margin-top: -20px!important;
+}
+
+.container{
+    margin:auto!important;
+}
+
+@media (max-width:450px){
+     body h1{
+      font-size: 20px;
+     }
+     body h2{
+      font-size: 17px;
+     }
+     body h3{
+      font-size: 14px;
+     }
+     body h4{
+      font-size: 11px;
+     }
+     body h5{
+      font-size: 8px;
+     }
+     body h6{
+      font-size: 6px;
+     }
+     .navbar{
+        width: 100%;
+     }
+     .text-danger strong, .text-primary strong, .text-success strong, .text-muted strong{
+        font-size: 17px;
+
+     }
+     .text-danger h3, .text-primary h3, .text-success h3, .text-muted h3{
+        font-size: 20px;
+    
+     }
+     .text-danger h6, .text-primary h6, .text-success h6, .text-muted h6{
+        font-size: 12px;
+    
+     }
+     .text-danger, .text-muted{
+        padding-left: 2px!important;
+        width: 60px;
+    
+     }
+     .text-primary{
+        width: 40px;
+        margin-left: 0px!important;
+        padding-left: 3px!important;
+     }
+     .text-success{
+        margin-left: -10px!important;
+        margin-right: 5px!important;
+        width: 60px;
+        padding-left: 0px!important;
+     }
+     #update{
+        font-size: 10px;
+     }
+     
+
+
+}
